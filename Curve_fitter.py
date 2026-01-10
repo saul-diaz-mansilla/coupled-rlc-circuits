@@ -8,7 +8,7 @@ from scipy.optimize import curve_fit
 def Lorentzian(x,x0,gamma):
     return 1/(np.pi*gamma*(1+((x-x0)/gamma)**2))
 
-wb = openpyxl.load_workbook('Datos_semana_1.xlsx')
+wb = openpyxl.load_workbook('1_data.xlsx')
 wb = wb.active
 data_max = 19
 row_1 = 17

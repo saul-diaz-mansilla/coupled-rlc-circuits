@@ -9,3 +9,4 @@ RLC circuit:
 - "1_Frequency.py": Resonance frequency varying the inductance L. Empirical data vs theory.
 - "1_Phase.py":     Phase difference between input and output signals as a function of the input frequency. Empirical data vs theory.
 
+Work in progress to order the rest of the files.

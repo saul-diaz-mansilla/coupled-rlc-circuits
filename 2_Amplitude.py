@@ -41,7 +41,7 @@ def theta2(w,R,L,C,C3,V0):
     val = np.arctan2(-G1*np.sin(phi1)+G2*np.sin(phi2),-G1*np.cos(phi1)+G2*np.cos(phi2))
     return val + np.pi*(val<0)
 
-wb = openpyxl.load_workbook(r"C:\Users\Usuario\Documents\Documentos\Universidad\Tecnicas experimentales II\Proyecto\Datos_semana_2.xlsx")
+wb = openpyxl.load_workbook("Datos_semana_2.xlsx")
 wb = wb.active
 
 data_max = 23
