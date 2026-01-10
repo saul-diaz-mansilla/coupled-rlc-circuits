@@ -8,7 +8,7 @@ def frequence_var(L, C):
     return 1/np.sqrt(L*C)
 
 # Load data from Excel
-wb = openpyxl.load_workbook('Datos_semana_1.xlsx')
+wb = openpyxl.load_workbook('1_data.xlsx')
 wb = wb.active
 
 data_max = 12
@@ -37,7 +37,7 @@ C_fit = parameters
 print(f"Fitted Parameters:\nC = {C_fit} F")
 
 # Plot experimental data with error bars
-plt.errorbar(L, w, yerr=dw, fmt='k.', label="Datos")
+plt.errorbar(L, w, xerr=0.01, fmt='k.', label="Datos")
 
 # Plot fitted curve
 L_fit = np.linspace(min(L), max(L), 500)
