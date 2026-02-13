@@ -1,13 +1,22 @@
 # coupled-rlc-circuits
-Coauthor: Álvaro Castillo Fernández alvaro.castillof@estudiante.uam.es
-An experimental project that studies the behavior of RLC circuits as harmonic oscillators as part of a lab module in Spanish. We study capacitive coupling in the time and frequency domains to study resonance. We also study a RL-diode circuit using chaos theory.
+An experimental project that studies the behavior of RLC circuits as harmonic oscillators as part of a lab module. The project explores resonance in simple RLC circuits, capacitive coupling between two RLC circuits in both time and frequency domains, and chaotic behavior in RL-diode circuits.
 
-The files are the following:
+Co-author: Álvaro Castillo Fernández: alvaro.castillof@estudiante.uam.es
 
-RLC circuit:
-- "1_data.xlsx":  Empirical data taken manually of a simple RLC circuit varying different parameters
+Read the final lab report in "0_TE2_RLC_Acoplados.pdf".
+
+Folders:
+- CSVs: Raw experimental data exported from the oscilloscope in .csv format.
+- bombardeen_tektronix_c1 / c2: Waveform data sets for the primary and coupled capacitors.
+- furier_c1 / c2: Data and scripts specifically for the Fourier Transform analysis of each circuit branch.
+- z_Figures: Final figures and plots generated for the report.
+- Democrito_alfa / IFT_Betas / moooooodle: Data subsets and working directories for specific experimental runs.
+
+Main analysis:
+Section 2: Simple RLC Circuit
+- "1_data.xlsx": Empirical data taken manually of a simple RLC circuit varying different parameters
 - "1_Amplitude.py": Amplitude of output signal as a function of the input frequency. Empirical data vs theory
 - "1_Frequency.py": Resonance frequency varying the inductance L. Empirical data vs theory.
-- "1_Phase.py":     Phase difference between input and output signals as a function of the input frequency. Empirical data vs theory.
+- "1_Phase.py": Phase difference between input and output signals as a function of the input frequency. Empirical data vs theory.
 
-Work in progress to order the rest of the files.
+Work in progress cleaning up the rest of the codes
