@@ -8,8 +8,3 @@ Section 3: Coupled RLC Circuits
 - "Fourier.py" / "Fourier_coupled.py": Performs the Fast Fourier Transform (FFT) to identify spectral peaks from square-wave inputs.
 - "furier_dirac.py": Models the Fourier series response using Dirac delta approximations for peak analysis.
 - "Inductivo_2.py": Preliminary studies or comparative analysis for inductive coupling.
-
-Section 4: RL-Diode Circuit and Chaos
-- "phasediagrams.py": Generates phase space plots (V_source vs V_resistance) to visualize periodic vs. chaotic orbits.
-- "Bifurcation.py": Main script for generating the bifurcation diagram to show period-doubling as frequency increases.
-- "Bifurcation_moooooodle.py": Version of the bifurcation analysis adapted for specific data structures.

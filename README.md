@@ -19,4 +19,9 @@ Section 2: Simple RLC Circuit
 - "1_Frequency.py": Resonance frequency varying the inductance L. Empirical data vs theory.
 - "1_Phase.py": Phase difference between input and output signals as a function of the input frequency. Empirical data vs theory.
 
+Section 4: RL-Diode Circuit and Chaos
+- "phasediagrams.py": Generates phase space plots (V_source vs V_resistance) to visualize periodic vs. chaotic orbits.
+- "Bifurcation.py": Main script for generating the bifurcation diagram to show period-doubling as frequency increases.
+- "Bifurcation_2.py": Bifurcation analysis for data in second run (unused).
+
 Work in progress cleaning up the rest of the codes

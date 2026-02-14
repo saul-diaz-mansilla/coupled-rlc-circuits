@@ -5,15 +5,15 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Open the file and read all lines
-with open(r"C:\Users\Usuario\Documents\Documentos\Universidad\Tecnicas experimentales II\Proyecto\Frecuencias_Betas.txt", "r") as file:
+with open(r"RL_diode_run_1\frequencies.txt", "r") as file:
     data = file.read().splitlines()  # Reads all lines and removes "\n"
 
 # Convert to numbers (int or float as needed)
 f_values = [float(x) for x in data]  # Use int(x) if values are integers
 i = 11
 number = str(i).zfill(4)
-CH1 = pd.read_csv(r"C:\Users\Usuario\Documents\Documentos\Universidad\Tecnicas experimentales II\Proyecto\IFT_Betas\ALL"+number+r"\F"+number+r"CH1.CSV", header=None)
-CH2 = pd.read_csv(r"C:\Users\Usuario\Documents\Documentos\Universidad\Tecnicas experimentales II\Proyecto\IFT_Betas\ALL"+number+r"\F"+number+r"CH2.CSV", header=None)
+CH1 = pd.read_csv(r"RL_diode_run_1\ALL"+number+r"\F"+number+r"CH1.CSV", header=None)
+CH2 = pd.read_csv(r"RL_diode_run_1\ALL"+number+r"\F"+number+r"CH2.CSV", header=None)
 
 CH1.columns = ["Metadata1", "Metadata2", "Empty", "X_Values", "Y_Values", "Empty2"]
 CH2.columns = ["Metadata1", "Metadata2", "Empty", "X_Values", "Y_Values", "Empty2"]
