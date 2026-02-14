@@ -8,7 +8,7 @@ def frequence_var(L, C):
     return 1/np.sqrt(L*C)
 
 # Load data from Excel
-wb = openpyxl.load_workbook('1_data.xlsx')
+wb = openpyxl.load_workbook('2_data.xlsx')
 wb = wb.active
 
 data_max = 12

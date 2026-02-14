@@ -8,7 +8,7 @@ def phase_shift(w, A, w0, gamma):
     return np.arctan(-gamma*w0/(w**2-w0**2)) + np.pi*(w>w0)
 
 # Load data from Excel
-wb = openpyxl.load_workbook("1_data.xlsx")
+wb = openpyxl.load_workbook("2_data.xlsx")
 wb = wb.active
 
 data_max = 17

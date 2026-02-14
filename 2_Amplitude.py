@@ -8,7 +8,7 @@ def RLC_Resonance(w, A, w0, gamma):
     return A / np.sqrt((w0**2 - w**2)**2 + (gamma * w)**2)
 
 # Load data from Excel
-wb = openpyxl.load_workbook("1_data.xlsx")
+wb = openpyxl.load_workbook("2_data.xlsx")
 wb = wb.active
 
 data_max = 19
